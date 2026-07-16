@@ -40,7 +40,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: rabbitmq:3
+        image: nareshkumar98/rabbitmq:v1
         envFrom:
         - secretRef:
             name: rabbitmq
