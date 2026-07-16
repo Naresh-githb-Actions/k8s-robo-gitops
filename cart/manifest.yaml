@@ -41,7 +41,7 @@ spec:
     spec:
       containers:
       - name: cart
-        image: nareshkumart/cart:v1
+        image: nareshkumar98/cart:v1
         envFrom:
         - configMapRef:
             name: cart
