@@ -42,7 +42,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: nareshkumar98/mysql:eecaa76f29983b7ed716f9a493bb4b5573ff502c
+        image: nareshkumar98/mysql:v1
         envFrom:
         - secretRef:
             name: mysql
