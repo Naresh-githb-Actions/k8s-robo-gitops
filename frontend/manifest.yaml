@@ -100,7 +100,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: nareshkumar98/frontend:eecaa76f29983b7ed716f9a493bb4b5573ff502c
+        image: nareshkumar98/frontend:v1
         volumeMounts:
         - name: nginx-conf
           mountPath: /etc/nginx/nginx.conf
